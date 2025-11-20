@@ -17,7 +17,7 @@ import { useState, useEffect } from "react";
 
 // Assets (using the aliases defined in vite.config.ts)
 import appIcon from "@assets/AppIcon~ios-marketing_1763670492850.png";
-import heroMockup from "@assets/swipefeed_1763670446853.png";
+import heroMockup from "@assets/swipefeed.png";
 import appStoreBadge from "@assets/image_1763670560726.png";
 
 // Copy Text Content
