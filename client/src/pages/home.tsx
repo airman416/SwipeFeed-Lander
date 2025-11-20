@@ -70,8 +70,6 @@ const Navbar = () => {
 
         <nav className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Features</a>
-          <a href="#how-it-works" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">How it works</a>
-          <a href="#pricing" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Pricing</a>
           <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466">
             <Button className="rounded-full px-6 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
               Get the App
@@ -88,7 +86,6 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 p-6 md:hidden flex flex-col gap-4 shadow-xl animate-in slide-in-from-top-5">
           <a href="#features" className="text-lg font-medium" onClick={() => setIsMobileMenuOpen(false)}>Features</a>
-          <a href="#how-it-works" className="text-lg font-medium" onClick={() => setIsMobileMenuOpen(false)}>How it works</a>
           <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466">
             <Button className="w-full rounded-full mt-2">Get the App</Button>
           </a>
