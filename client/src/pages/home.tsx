@@ -72,9 +72,11 @@ const Navbar = () => {
           <a href="#features" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Features</a>
           <a href="#how-it-works" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">How it works</a>
           <a href="#pricing" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Pricing</a>
-          <Button className="rounded-full px-6 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
-            Get the App
-          </Button>
+          <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466">
+            <Button className="rounded-full px-6 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5">
+              Get the App
+            </Button>
+          </a>
         </nav>
 
         <button className="md:hidden p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -87,7 +89,9 @@ const Navbar = () => {
         <div className="absolute top-full left-0 right-0 bg-white border-b border-gray-100 p-6 md:hidden flex flex-col gap-4 shadow-xl animate-in slide-in-from-top-5">
           <a href="#features" className="text-lg font-medium" onClick={() => setIsMobileMenuOpen(false)}>Features</a>
           <a href="#how-it-works" className="text-lg font-medium" onClick={() => setIsMobileMenuOpen(false)}>How it works</a>
-          <Button className="w-full rounded-full mt-2">Get the App</Button>
+          <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466">
+            <Button className="w-full rounded-full mt-2">Get the App</Button>
+          </a>
         </div>
       )}
     </header>
@@ -122,7 +126,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
             >
-              <a href="#" className="inline-block transition-transform hover:scale-105 active:scale-95">
+              <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466" className="inline-block transition-transform hover:scale-105 active:scale-95">
                 <img src={appStoreBadge} alt="Download on the App Store" className="h-14" />
               </a>
               <div className="flex items-center gap-2 text-sm font-medium text-gray-500">
@@ -243,7 +247,7 @@ const CTA = () => {
             Download SwipeFeed - your time-saving news companion that bridges the gap between staying informed and actually having time for everything else.
           </p>
           <div className="flex flex-col items-center justify-center gap-4">
-            <a href="#" className="inline-block transition-transform hover:scale-105 active:scale-95">
+            <a href="https://apps.apple.com/us/app/swipefeed-short-breaking-news/id6739143466" className="inline-block transition-transform hover:scale-105 active:scale-95">
               <img src={appStoreBadge} alt="Download on the App Store" className="h-16" />
             </a>
             <p className="text-sm text-gray-400 mt-4">
@@ -281,8 +285,8 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li><a href="#" className="hover:text-black">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-black">Terms of Use</a></li>
+              <li><a href="/privacy" className="hover:text-black">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-black">Terms of Use</a></li>
             </ul>
           </div>
         </div>
