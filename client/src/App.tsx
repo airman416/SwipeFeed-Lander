@@ -4,12 +4,14 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { PostHogProvider } from "posthog-js/react";
+import { HelmetProvider } from "react-helmet-async";
 import posthog from "@/lib/posthog";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import Privacy from "@/pages/privacy";
 import Terms from "@/pages/terms";
 import DayTime from "@/pages/daytime";
+import Card from "@/pages/card";
 
 function Router() {
   return (
@@ -18,6 +20,7 @@ function Router() {
       <Route path="/privacy" component={Privacy} />
       <Route path="/terms" component={Terms} />
       <Route path="/daytime" component={DayTime} />
+      <Route path="/card/:id" component={Card} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -25,14 +28,16 @@ function Router() {
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <PostHogProvider client={posthog}>
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-        </TooltipProvider>
-      </PostHogProvider>
-    </QueryClientProvider>
+    <HelmetProvider>
+      <QueryClientProvider client={queryClient}>
+        <PostHogProvider client={posthog}>
+          <TooltipProvider>
+            <Toaster />
+            <Router />
+          </TooltipProvider>
+        </PostHogProvider>
+      </QueryClientProvider>
+    </HelmetProvider>
   );
 }
 
