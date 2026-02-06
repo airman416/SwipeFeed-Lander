@@ -12,6 +12,8 @@ import Privacy from "@/pages/privacy";
 import Terms from "@/pages/terms";
 import DayTime from "@/pages/daytime";
 import Card from "@/pages/card";
+import FeedSharePrivacy from "@/pages/feedshare-privacy";
+import FeedShareTerms from "@/pages/feedshare-terms";
 
 function Router() {
   return (
@@ -19,6 +21,8 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/terms" component={Terms} />
+      <Route path="/feedshare/privacy" component={FeedSharePrivacy} />
+      <Route path="/feedshare/terms" component={FeedShareTerms} />
       <Route path="/daytime" component={DayTime} />
       <Route path="/card/:id" component={Card} />
       <Route component={NotFound} />
