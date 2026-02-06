@@ -6,7 +6,7 @@
 
 FeedShare 2.0 ("we", "our", or "us") collects the following information:
 
-- Email address (Northeastern University email)
+- Email address
 - Photos you choose to upload
 - Posts and comments you create
 - Device push notification tokens (if enabled)
@@ -34,13 +34,13 @@ You can delete your account at any time from the Profile screen. This will perma
 
 ## 6. Children's Privacy
 
-FeedShare is intended for university students aged 18 and older. We do not knowingly collect information from children under 13.
+FeedShare is intended for students aged 18 and older. We do not knowingly collect information from children under 13.
 
 ## 7. Contact Us
 
 If you have questions about this Privacy Policy, contact us at:
 
-**Email:** support@swipefeed.io
+**Email:** swipefeedlive@gmail.com
 
 ---
 

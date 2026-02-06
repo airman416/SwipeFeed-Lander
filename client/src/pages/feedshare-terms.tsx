@@ -20,7 +20,7 @@ const FeedShareTerms: FC = () => {
                     <h2 className="text-2xl font-bold mt-8 mb-4">2. Eligibility</h2>
 
                     <p className="mb-6">
-                        FeedShare is intended for Northeastern University students, faculty, and staff. You must have a valid @northeastern.edu email to use this app. You must be at least 18 years old.
+                        FeedShare is intended for students. You must be at least 18 years old.
                     </p>
 
                     <h2 className="text-2xl font-bold mt-8 mb-4">3. User Conduct</h2>
@@ -69,7 +69,7 @@ const FeedShareTerms: FC = () => {
                     <p className="mb-4">Questions? Contact us at:</p>
 
                     <p className="mb-6">
-                        <strong>Email:</strong> support@swipefeed.io
+                        <strong>Email:</strong> swipefeedlive@gmail.com
                     </p>
 
                     <hr className="my-8 border-gray-300" />

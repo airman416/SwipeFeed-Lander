@@ -14,6 +14,7 @@ import DayTime from "@/pages/daytime";
 import Card from "@/pages/card";
 import FeedSharePrivacy from "@/pages/feedshare-privacy";
 import FeedShareTerms from "@/pages/feedshare-terms";
+import FeedShareSupport from "@/pages/feedshare-support";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/privacy" component={Privacy} />
       <Route path="/terms" component={Terms} />
+      <Route path="/feedshare" component={FeedShareSupport} />
       <Route path="/feedshare/privacy" component={FeedSharePrivacy} />
       <Route path="/feedshare/terms" component={FeedShareTerms} />
       <Route path="/daytime" component={DayTime} />

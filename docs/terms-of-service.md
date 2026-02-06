@@ -8,7 +8,7 @@ By using FeedShare 2.0, you agree to these Terms of Service. If you do not agree
 
 ## 2. Eligibility
 
-FeedShare is intended for Northeastern University students, faculty, and staff. You must have a valid @northeastern.edu email to use this app. You must be at least 18 years old.
+FeedShare is intended for students. You must be at least 18 years old.
 
 ## 3. User Conduct
 
@@ -43,7 +43,7 @@ We may update these terms at any time. Continued use of the app constitutes acce
 
 Questions? Contact us at:
 
-**Email:** support@swipefeed.io
+**Email:** swipefeedlive@gmail.com
 
 ---
 
